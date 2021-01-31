@@ -9,6 +9,7 @@ import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
+import Input from '../src/components/input';
 
 // const BackgroundImage = styled.div`
 //   background-image: url(${db.bg});
@@ -50,7 +51,7 @@ export default function Home() {
               console.log('Fazendo uma submissão por meio do react');
             }}
             >
-              <input
+              <Input
                 onChange={function (infosDoEvento) {
                   console.log(infosDoEvento.target.value);
                   // State
